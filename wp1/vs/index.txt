@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SK FORUM</title>
+
+    <link rel="stylesheet" href=".vscode\css\style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/56cca1a73a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <div id="top" class="page-scroll"></div>
+
+        <!-- Navbar -->
+        <header>
+          <a href="#top" class="logo">Shreyas Kapse</a>
+          <ul>
+            <li><a class="active page" href="#top" id="home-btn">Home</a></li>
+            <li><a href="#about" class="page" id="about-btn">About Me</a></li>
+            <li>
+              <a href="#experience" class="page" id="experience-btn"
+                >Experience</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="page" id="project-btn">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="enabledisable page" id="contact-btn"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </header>
+
+        <!-- Main Content -->
+        <div class="content">
+          <div class="column">
+            <h2 data-aos="fade-down" data-aos-duration="1000">
+              Hi all, I'm Shreyas Kapse<span class="wave">👋f</span>
+            </h2>
+            <p data-aos="fade-right" data-aos-duration="1000">
+              I love software development, machine learning and deep learning. I
+              know a little bit of Web Dev too and Flutter! Want to discuss
+              regarding any project or just want to say a Hi? I am always
+              available to listen you :)
+            </p>
+            <a href="#home" data-aos="fade-right" data-aos-duration="1000"
+              >Contact Me</a
+            >
+            <a href="#home" data-aos="fade-right" data-aos-duration="1000"
+              >Resume</a
+            >
+          </div>
+          <div class="img">
+            <img
+              src=".vscode\contents\4542742-removebg-preview.png"
+              alt="APS-OCTOCAT"
+              data-aos="fade-up-right"
+              data-aos-duration="1000"
+            />
+          </div>
+        </div>
+
+        <ul class="socialsites">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
